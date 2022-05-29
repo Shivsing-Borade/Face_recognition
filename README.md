@@ -23,22 +23,25 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Face_reco
+  cd Face_recognition
 ```
 
 Install dependencies
 
 ```bash
   pip install numpy
-  pip install cv2
+  pip install opencv-python
   pip install face_recognition
   pip install os
+  pip install cmake
+  pip install dlib=19.18.0
 ```
 Add Images to images folder
 
 Run missing_person.py 
  
-
+(Note : Visual Studio must be install to run the project )
+[Visual studio](https://visualstudio.microsoft.com/downloads/)
 
 ## Modules Used
 
